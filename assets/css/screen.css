@@ -17,6 +17,13 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
+  padding: 24px;
+}
+
+@supports (display: grid) {
+  html {
+    padding: 0;
+  }
 }
 
 /* Acccessibility */
