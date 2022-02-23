@@ -8,6 +8,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Acccessibility */
 fieldset[aria-hidden="true"] {
   display: none;
 }
