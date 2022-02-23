@@ -49,6 +49,21 @@ input[type="checkbox"] {
   width: auto;
 }
 
+/* Page Layout */
+
+body {
+  display: grid;
+  grid-template-rows: 24px [header-start] auto [header-end] 24px [main-start] auto [main-end];
+  grid-template-columns: 24px [header-start main-start] auto [header-end main-end] 24px;
+}
+
+#header {
+  grid-area: header;
+}
+#main {
+  grid-area: main;
+}
+
 /* Form Layout */
 .account-prompt {
   display: flex;
