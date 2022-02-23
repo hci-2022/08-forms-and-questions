@@ -32,3 +32,8 @@ input[type="checkbox"] {
   width: auto;
 }
 
+/* Form Layout */
+.account-prompt {
+  display: flex;
+  align-items: baseline;
+}
