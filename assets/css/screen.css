@@ -34,10 +34,12 @@ fieldset[aria-hidden="true"] {
 /* Form Elements */
 button,
 input,
-label {
+label,
+select {
   display: block;
 }
-input {
+input,
+select {
   width: 100%;
 
   background: #BBB;
