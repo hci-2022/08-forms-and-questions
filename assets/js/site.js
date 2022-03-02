@@ -17,6 +17,11 @@ newAccountCheckbox.addEventListener('change', function(event) {
   }
 });
 
+var emailInput = document.querySelector('#email');
+emailInput.addEventListener('focus', function() {
+  console.log('Email input has focus');
+  this.removeAttribute('placeholder');
+});
 
 
 /**
